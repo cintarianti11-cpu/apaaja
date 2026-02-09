@@ -1,0 +1,25 @@
+#sudo apt update && sudo apt upgrade -y
+#sudo apt install docker.io -y
+#sudo systemctl status docker
+*Active: active (running)*
+#sudo systemctl start docker
+#sudo systemctl enable docker
+#sudo usermod -aG docker ubuntu
+#ssh -i key.pem #ubuntu@IP_SERVER
+#docker --version
+#Docker version 24.x.x
+#docker run hello-world
+#sudo apt install docker-compose -y
+#docker-compose --version
+#cd /var/www
+#sudo mkdir modul2-lks
+#sudo chown -R ubuntu:ubuntu #modul2-lks
+#cd modul2-lks
+#docker-compose up -d --build
+#docker ps
+#docker exec -it laravel_app bash
+#php artisan key:generate
+#php artisan migrate
+#php artisan optimize
+#exit
+#http://IP_SERVER
